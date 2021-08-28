@@ -1,0 +1,415 @@
+/* CSS Document */
+body {
+	background:#ecebd7 url(../images/bg.jpg) repeat;
+}
+
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('../fonts/CenturyGothic.eot') format('embedded-opentype');
+  src: url('../fonts/CenturyGothic.eot') format('embedded-opentype'),
+	 url('../fonts/CenturyGothic.woff') format('woff'),
+	 url('../fonts/CenturyGothic.ttf') format('truetype'),
+	 url('../fonts/CenturyGothic.svg#CenturyGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CenturyGothic-Bold';
+  src: url('../fonts/CenturyGothic-Bold.eot') format('embedded-opentype');
+  src: url('../fonts/CenturyGothic-Bold.eot') format('embedded-opentype'),
+	 url('../fonts/CenturyGothic-Bold.woff') format('woff'),
+	 url('../fonts/CenturyGothic-Bold.ttf') format('truetype'),
+	 url('../fonts/CenturyGothic-Bold.svg#CenturyGothic-Bold') format('svg');  
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'CaviarDreamsBold';
+    src: url('../fonts/caviardreams_bold.eot');
+    src: url('../fonts/caviardreams_bold.eot') format('embedded-opentype'),
+         url('../fonts/caviardreams_bold.woff') format('woff'),
+         url('../fonts/caviardreams_bold.ttf') format('truetype'),
+         url('../fonts/caviardreams_bold.svg#CaviarDreamsBold') format('svg');
+}
+
+@font-face {
+    font-family: 'CaviarDreamsItalic';
+    src: url('../fonts/caviardreams_italic.eot');
+    src: url('../fonts/caviardreams_italic.eot') format('embedded-opentype'),
+         url('../fonts/caviardreams_italic.woff') format('woff'),
+         url('../fonts/caviardreams_italic.ttf') format('truetype'),
+         url('../fonts/caviardreams_italic.svg#CaviarDreamsItalic') format('svg');
+}
+
+
+/*------------------------------------header ---------------------------------*/
+#header {
+	width:100%;
+	line-height:24px;
+	heigth:24px;
+	background:#ecebd7;
+	position:relative;
+}
+
+.topbg {
+	background:#640c0a url(../images/topbg.jpg) repeat-x;
+	height:auto;
+}
+
+.logo {
+	position:absolute;
+	z-index:9999;
+	width:205px;
+	height:102px;
+}
+
+.topnav {
+	width:100%;
+	line-height:60px;
+	height:60px;
+	background:#640c0a;
+
+}
+
+.nav>li>a {
+	font-size:11px;
+	color:#FFFFFF;
+	text-transform:uppercase;
+}
+
+.navbottom>li>a {
+	font-size:13px;
+	color:#FFFFFF;
+	text-transform:uppercase;
+}
+
+.navbottom>li>a:hover {
+	color:#000000;
+}
+
+.navbottom>li>a:focus {
+	color:#000000;
+}
+
+
+.navbar-nav>li>a {
+	line-height:19px;
+}
+
+.navbar-nav>li>a:hover {
+	color:#000000;
+}
+
+.navbartop{
+	background:#640c0a;
+	border-radius:0px;
+}
+
+.navbarbottom {
+	background:#330100;
+	border-radius:0px;
+}
+
+.navbar {
+	margin-bottom:0px;
+}
+
+.search {
+	margin-top:8px;
+}
+
+/*------------------------------------header ---------------------------------*/
+
+
+
+/*-----------------------------Content -------------------------------------*/
+
+h2 {
+	font-size:40px;
+	font-family: 'CenturyGothic';
+	color:#640c0a;
+	text-align:right;
+	text-transform:uppercase;
+	margin:0px;
+	padding:0px;
+}
+
+h4 {
+	font-size:16px;
+	line-height:25px;
+	font-family: 'CenturyGothic';
+	color:#640c0a;
+	text-align:left;
+	margin:0px;
+	padding:0px;	
+}
+
+.shtitle {
+	font-size:25px;
+	font-family: 'CenturyGothic';
+	color:#640c0a;
+	text-align:right;
+	margin:20px 0 0 0;
+	padding:0px;
+}
+
+.pptext {
+	font-size:14px;
+	font-family: 'CenturyGothic';
+	color:#640c0a;
+	text-align:left;
+	margin:20px 0 0 0;
+	padding:0px;
+}
+
+.thumbtitle {
+	font-size:20px;
+	font-family: 'CenturyGothic';
+	color:#640c0a;
+	text-align:left;
+	margin:10px 0 0 0;
+	padding:0px;
+}
+
+.thumbtext {
+	font-size:14px;
+	font-family: 'CenturyGothic';
+	color:#640c0a;
+	text-align:left;
+	margin:10px 0 0 0;
+	padding:0px;
+}
+
+
+.readmore {
+	margin:20px 0 0 0;
+	padding:0px;
+}
+
+
+.readmore a {
+	font-size:14px;
+	font-family: 'CaviarDreamsBold';
+	text-decoration:none;
+	color:#640c0a;
+	text-align:left;
+}
+
+
+.abmargin {
+	margin-top:37px;
+}
+
+.mbtop {
+	margin-top:30px;
+}
+
+.mbbottom {
+	margin-bottom:30px;
+}
+
+.wrapper {
+	background:#f4f2db;
+}
+
+.leftline {
+	border-left:1px #640c0a solid;
+	padding-bottom:20px;
+}
+.centerline {
+	border-bottom:1px #640c0a solid;
+}
+
+.thumbimageleft {
+	padding-top:15px;
+}
+
+.thumbimageright {
+	padding-top:15px;
+}
+
+.thumb {
+	display: block;
+	padding: 0px;
+	margin-bottom: 20px;
+	line-height: 1.42857143;
+}
+
+
+#footer {
+	background:#640c0a;
+	padding-top:30px;
+	padding-bottom:30px;	
+
+}
+
+ul {
+	padding-left:0px;
+	-webkit-padding-start: 0px;
+}
+
+.dropdown-menu > li > a {
+	font-size:12px;
+}
+
+ul.footer li  {
+	list-style:none;
+}
+
+ul.footer li a {
+	font-size:12px;
+	color:#FFFFFF;
+	line-height:23px;
+	text-align:left;
+
+}
+
+.space {
+	margin-right:10px;
+}
+
+.copyright {
+	font-size:12px;
+	color:#FFFFFF;
+	text-align:right;
+	margin-right:30px;
+	margin-top:50px;
+}
+
+.abwidth {
+	width:21%;
+}
+
+.inner h2 {
+	font-size:28px;
+	font-weight:bold;
+	color:#640c0a;
+	text-align:right;
+	line-height:35px;
+}
+
+.inner p {
+	font-size:14px;
+	font-family: 'CenturyGothic';
+	font-weight:bold;
+	color:#640c0a;
+	text-align:left;
+}
+
+ul.listitem {
+	margin-left:40px;
+}
+
+ul.listitem li {
+	font-size:14px;
+	font-family: 'CenturyGothic';
+	font-weight:normal;
+	color:#640c0a;
+	list-style:none;
+	text-align:left;
+	line-height:35px;
+}
+
+.captcha {
+	margin-bottom:20px;
+}
+
+label {
+	font-size:14px;
+	color:#640c0a;
+	font-family: 'CenturyGothic';
+	font-weight:200;
+	text-align:left;
+}
+
+.contact p {
+	font-size:12px;
+	font-family: 'CenturyGothic';
+	font-weight:100;
+	color:#640c0a;
+	text-align:left;
+	padding-top:20px;
+}
+
+.contact p a {
+	font-size:12px;
+	font-family: 'CenturyGothic';
+	font-weight:100;
+	color:#640c0a;
+	text-decoration:none;
+	text-align:left;
+	padding-top:20px;
+}
+
+.btnright {
+	text-align:right;
+}
+
+
+
+/*-----------------------------Content -------------------------------------*/
+
+
+
+
+
+/*-------------------------------media queries----------------------------*/
+
+
+/*--------------------------------------MEDIA QUERIES-----------------------------------------*/
+/* Large Devices, Wide Screens */
+	@media only screen and (max-width : 1200px) {
+		
+	}
+
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+
+	
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px) {
+	.logo {
+		width:100px;
+		height:47px;
+	}
+	.nav > li > a {
+		font-size:9px;	
+	}
+	.navbottom > li > a {
+		font-size:14px !important;	
+	}
+	.dropdown-menu > li > a {
+		font-size:11px;	
+		color:#FFFFFF;
+	}
+	.leftline {
+		border:0px;	
+	}
+
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (max-width : 480px) {
+		.pull-right {float:none!important;}	
+		.icon-bar {background:#FFFFFF;}
+		.topbg {background:#640c0a;}
+	}
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (max-width : 320px) {
+		.pull-right {float:none!important;}	
+		.icon-bar {background:#FFFFFF;}
+		.topbg {background:#640c0a;}
+	}
+
+
+
+
+
+
+
